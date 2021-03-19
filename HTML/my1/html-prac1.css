@@ -1,0 +1,120 @@
+body{
+    color: rgba(232, 233, 236, 0.945);
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+#mainTitle{
+    background-image: linear-gradient( to bottom right ,rgb(22, 59, 53),rgb(115, 158, 129));
+height: 70px;
+width: auto;
+    
+    padding: 20px;
+ 
+}
+#title{
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 40px;
+    color:#e0065a;
+    font-style: italic;
+}
+.nav{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+ 
+  height: 50px;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+
+}
+li a{
+    text-decoration: none;
+    display: inline-block;
+    color:#ffffff;
+    font-family:'Times New Roman';
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 0 30px;
+    
+}
+.cool-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+.cool-link:hover::after{
+width: 100%;
+transform: width .3s;
+}
+
+.sectionContainer{
+    background-color: rgb(252, 194, 184);
+    height: 100%;
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+img{
+    position: absolute;
+    width:200px;
+    margin:20px auto 0 auto;
+
+}
+.sectionContainer2{
+   background: url(./img/wed2.jpg) 50% 50% no-repeat;
+   background-size: cover;
+   display: table;
+    height: 50vh;
+    width: 60%;
+    float:right;
+    margin: 10px;
+}
+
+   
+h2{
+    font-size: x-large;
+    color: rgb(202, 243, 20);
+    margin: 100px 10px 20px;
+}
+p3{
+    font-size:20px;
+    font-style: italic;
+    color: #ffffff;
+    width: 100%;
+    margin:60px auto 0 auto;
+    text-align: justify;
+
+    
+}
+p{
+    font-size:20px;
+    font-style: italic;
+    color: #ffffff;
+    margin:100px 15px 25px;
+   
+}
+footer{
+background-image: linear-gradient(rgb(12, 11, 12),rgb(58, 56, 56));
+width: 100%;
+margin-top: auto;
+  position: fixed;
+  bottom: 0;
+}
+p2.copyright{
+    color: rgb(57, 199, 38);
+    line-height: 40px;
+    font-size: 0.9em;
+    text-align: center;
+ 
+}
